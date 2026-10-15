@@ -26,6 +26,12 @@
       padding: 10px;
       padding-top: 10px;
       background-color: rgb(136, 191, 209);
+      welcomebox:active {
+            Welcome!
+      }
+      welcomebox:hover {
+        Not Welcome!
+      }
     }
     .header{
         position: relative;
@@ -39,6 +45,44 @@
         position: relative;
         float: center;
     }
+    .button {
+        background-color: #1a9737; /* Green */
+        border: none;
+        color: rgb(117, 32, 32);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        
+a:link {
+  color: rgb(192, 191, 183);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: hexcode #00c3ffdc;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+    }
+    
 </style>
 </head>
     <header>
@@ -46,18 +90,14 @@
         <div class="navcontainer">
         <nav>
             
-                <a href="https://zerozxdesigns.myportfolio.com">Website</a>
-                <a href="./Basic-Build.html">Basic Build</a>
-                <a href="./css-demo.html">CSS Demo</a>
-           
-        
+                <button class="button"><a href="https://zerozxdesigns.myportfolio.com">Website</a></button>
+               <button class="button"><a href="./Basic-Build.html">Basic Build</a></button>
+               <button class="button"><a href="./css-demo.html">CSS Demo</a></button>
         </div>
     </header>
     <div class="welcomebox">
  <h1>Welcome!?</h1>
-        <div class="hover-state">
-        Not Welcome!
-        </div>
+        
 </div>
 <p>This is my website click around the see more</p>
 
