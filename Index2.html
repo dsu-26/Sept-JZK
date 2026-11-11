@@ -34,84 +34,86 @@
             body {
                 font-family: 'LucidaSans-Typewriter', regular;
                 /* font-family: 'Jaini', sans-serif; */
-                margin: 100px;
+                /* margin: 100px; */
                 font-size: 30px;
                 background-color: #cfc8eb;
                 color: #0d042b;
             
             }
             
-                .siteheader{
-                    right: 0;
-                    top: 0;
-                    width: auto;
-                    height: auto;
-                }
-                .navcontainer{
-                    position: absolute;
-                    right: 0;
+            .siteheader{
                     top: 0;
                     width: auto;
                     height: auto;
                     background-color: #c3bbe2;
-                    padding: 5px;
-                    box-shadow: 0px 2px 4px rgba(42, 24, 44, 0.2);
-                    
+                    /* inline-size: 100%; */
+
                 }
-                        .buttonnav {
-                                background-color: #c3bbe2;
-                                color: rgb(137, 118, 135);
-                                padding: 15px 32px;
-                                text-align: match-parent;
-                                position: center;
-                                font-size: 16px;
-                                margin: 4px 4px;
-                                cursor: pointer;
-                        }
-                        a:link {
-                                color: rgb(96, 0, 128);
+                    .navcontainer{
+                        position: relative; 
+                        right: 0;
+                        top: 0;
+                        width: 500px;
+                        height: 50x;
+                        background-color: #c3bbe2;
+                        padding: 5px;
+                        box-shadow: 0px 2px 4px rgba(42, 24, 44, 0.2);
+                        
+                    }
+                            .buttonnav {
+                                    background-color: #c3bbe2;
+                                    color: rgb(137, 118, 135);
+                                    padding: 15px 32px;
+                                    text-align: match-parent;
+                                    position: center;
+                                    font-size: 16px;
+                                    margin: 4px 4px;
+                                    cursor: pointer;
+                            }
+                            a:link {
+                                    color: rgb(96, 0, 128);
+                                    background-color: transparent;
+                                    text-decoration: none;
+                            }
+
+                            a:visited {
+                                color: rgb(98, 14, 88);
                                 background-color: transparent;
                                 text-decoration: none;
-                        }
-
-                        a:visited {
-                            color: rgb(98, 14, 88);
-                            background-color: transparent;
-                            text-decoration: none;
-                        }
-
-                        a:hover {
-                            color: rgb(32, 26, 32);
-                            background-color: transparent;
-                            text-decoration: underline;
-                        }
-
-                        a:active {
-                            color: rgb(255, 196, 0);
-                            background-color: transparent;
-                            text-decoration: underline;
-                        }
-                            .ulnav {
-                                list-style-type: none;
-                                margin: 0;
-                                padding: 0;
-                                overflow: hidden;
                             }
 
-                            .ulnav li {
-                                float: left;
+                            a:hover {
+                                font-color: rgb(32, 26, 32);
+                                background-color: transparent;
+                                text-decoration: underline;
                             }
 
-                            .ulnav li a {
-                                display: block;
-                                text-align: center;
-                                padding: 4px 6px;
-                                text-decoration: none;
+                            a:active {
+                                color: rgb(255, 196, 0);
+                                background-color: transparent;
+                                text-decoration: underline;
                             }
+                                .ulnav {
+                                    list-style-type: none;
+                                    margin: 0;
+                                    padding: 0;
+                                    overflow: hidden;
+                                }
 
-                            .ulnav li a:hover {
-                                background-color: #111111;
-                            }
+                                .ulnav li {
+                                    float: left;
+                                }
+
+                                .ulnav li a {
+                                    display: block;
+                                    text-align: center;
+                                    padding: 4px 6px;
+                                    text-decoration: none;
+                                }
+
+                                .ulnav li a:hover {
+                                    background-color: #111111;
+                                }
         .TOC{
             position: center;
             text-align: center;
@@ -182,8 +184,8 @@
                     <ul class="ulnav">
                         <div class="buttonnav">
                         <li><a class="buttonnav" href="https://zerozxdesigns.myportfolio.com">Website</a></li>
-                        <li><a href="./Basic-Build.html">Basic Build</a></li>
-                        <li><a href="./css-demo.html">CSS Demo</a></li>                    </div>
+                        <li><a class="buttonnav" href="./Basic-Build.html">Basic Build</a></li>
+                        <li><a class="buttonnav" href="./css-demo.html">CSS Demo</a></li>
                         </div>
                     </ul>
                 </div>
