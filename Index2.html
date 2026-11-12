@@ -37,11 +37,13 @@
                 /* margin: 100px; */
                 font-size: 30px;
                 background-color: #cfc8eb;
-                color: #0d042b;
+                background-color: #DCDCF4;
+                color: #2A004D;
             
             }
             
             .siteheader{
+                float: top;
                     top: 0;
                     width: auto;
                     height: auto;
@@ -50,11 +52,12 @@
 
                 }
                     .navcontainer{
+                        float : right;
                         position: relative; 
                         right: 0;
                         top: 0;
-                        width: 500px;
-                        height: 50x;
+                        /* width: 500px;
+                        height: 50x; */
                         background-color: #c3bbe2;
                         padding: 5px;
                         box-shadow: 0px 2px 4px rgba(42, 24, 44, 0.2);
@@ -70,6 +73,7 @@
                                     font-size: 16px;
                                     margin: 4px 4px;
                                     cursor: pointer;
+                                    box-sizing: border-box;
                             }
                             a:link {
                                     color: rgb(96, 0, 128);
@@ -84,7 +88,7 @@
                             }
 
                             a:hover {
-                                font-color: rgb(32, 26, 32);
+                                color: rgb(32, 26, 32);
                                 background-color: transparent;
                                 text-decoration: underline;
                             }
@@ -114,14 +118,20 @@
                                 }
 
                                 .ulnav li a:hover {
-                                   font-color: #111111;
+                                   color: #111111;
                                 }
+        .pagecontainer{
+            position: center;
+            text-align: center;
+            gap: 16px;
+        }
         .TOC{
             position: center;
             text-align: center;
             gap: 16px;
            
         }
+        
         .button-toc{
             font-family: 'Comic Relief', sans-serif;
             font-size: 21px;
@@ -134,6 +144,19 @@
             border-radius: 65px;
             border: none;
             display: inline-flex;
+                                    /* Group 12
+
+                        box-sizing: border-box;
+
+                        position: absolute;
+                        width: 397px;
+                        height: 158px;
+                        left: calc(50% - 397px/2 - 223.5px);
+                        top: calc(50% - 158px/2 - 17px);
+
+                        border: 1px dashed #8A38F5;
+                        border-radius: 5px; */
+
             
                 cursor: pointer;
                     display: inline-flex;
@@ -175,13 +198,13 @@
             font-family: 'Comic Relief', sans-serif;
             
         }
-
+            /* make the circle buttons for socials, maybe take out TOC, and take out main nav for the splash page */
         </style>
     </head>
     <body>
         <header>
            <div class="siteheader">
-                <img src="https://cdn.myportfolio.com/a97ee89c-75dc-4c11-8d6e-9b02929a2360/e67eaebe-404b-46de-ba94-3532a69f6eca_rwc_58x40x564x526x4096.png?h=30d62f3183e7b16d9843dd1ed8a4e542" width="150px" height="140px" alt="Zerozx's Designs">
+                <img src="https://cdn.myportfolio.com/a97ee89c-75dc-4c11-8d6e-9b02929a2360/e67eaebe-404b-46de-ba94-3532a69f6eca_rwc_58x40x564x526x4096.png?h=30d62f3183e7b16d9843dd1ed8a4e542" style="float:left; width:42px; height:42px;" alt="Zerozx's Designs">
                 <div class="navcontainer">
                     <ul class="ulnav">
                      <div class="buttonnav"> 
@@ -193,6 +216,8 @@
                 </div>
          </div>
         </header>
+        <div class="pagecontainer">
+            
         <div class="TOC"> 
             <h3>Table of Contents:</h3>
                 
@@ -204,6 +229,7 @@
                     <a href="./button-set.html" class="button-toc">Button Set</a>
                     <a href="./index.html" class="button-toc">Index OG</a>
                 </div>
+        </div>
         </div>
      </body>
 </html>
