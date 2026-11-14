@@ -44,11 +44,11 @@
             
             .siteheader{
                 float: top;
-                    top: 0;
-                    width: auto;
-                    height: auto;
-                    background-color: #c3bbe2;
-                    /* inline-size: 100%; */
+                position: relative;
+                top: 0;
+                width: auto;
+                height: 200px;
+                /* inline-size: 100%; */
 
                 }
                     .navcontainer{
@@ -125,7 +125,7 @@
             text-align: center;
             gap: 16px;
             padding : 25px;
-        }
+        
         .TOC{
             position: center;
             text-align: center;
@@ -200,13 +200,29 @@
             font-family: 'Comic Relief', sans-serif;
             
         }
-            /* make the circle buttons for socials, maybe take out TOC, and take out main nav for the splash page */
+    }
+     .buttonsocialscontainer{
+        align-content: center;
+    
+            .buttonsocials{
+                /* align-content: center; */
+                color: rgb(90, 87, 90);
+                color: rgb(202, 198, 227);
+                text-align: center;
+                border-radius: 50%;
+                padding: 15px 32px;
+                background-color:rgb(51, 49, 51);
+                box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+                margin: 6px;
+            }
+        }
+        /* make the circle buttons for socials, maybe take out TOC, and take out main nav for the splash page */
         </style>
     </head>
     <body>
         <header>
            <div class="siteheader">
-                <img src="https://cdn.myportfolio.com/a97ee89c-75dc-4c11-8d6e-9b02929a2360/e67eaebe-404b-46de-ba94-3532a69f6eca_rwc_58x40x564x526x4096.png?h=30d62f3183e7b16d9843dd1ed8a4e542" style="float:left; width:42px; height:42px;" alt="Zerozx's Designs">
+                <img src="https://cdn.myportfolio.com/a97ee89c-75dc-4c11-8d6e-9b02929a2360/e67eaebe-404b-46de-ba94-3532a69f6eca_rwc_58x40x564x526x4096.png?h=30d62f3183e7b16d9843dd1ed8a4e542" style="float:left; size: 25%; height: 75%;" alt="Zerozx's Designs">
                 <div class="navcontainer">
                     <ul class="ulnav">
                      <div class="buttonnav"> 
@@ -229,8 +245,15 @@
                     <a href="./css-demo.html" class="button-toc">CSS Demo </a>
                     <a href="./website-rebuild.html"class="button-toc">Website Rebuild</a>
                     <a href="./button-set.html" class="button-toc">Button Set</a>
-                    <a href="./index.html" class="button-toc">Index OG</a>
+                    <a href="./archive/index.html" class="button-toc">Index OG</a>
                 </div>
+        </div>
+    <!-- button social media links -->
+            <div class="buttonsocialscontainer">   
+                <a href="https://www.instagram.com/zerozxdesigns/" class="buttonsocials"></a>
+                <a href="https://www.linkedin.com" class="buttonsocials"></a>
+                <a href="https://www.youtube.com/@zerozxdesigns" class="buttonsocials"></a>
+            </div>
         </div>
         </div>
      </body>
