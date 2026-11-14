@@ -2,16 +2,17 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Isometra&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap" rel="stylesheet">
-    <title>Home Splash</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Isometra&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap" rel="stylesheet">
+        
+        <title>Home Splash</title>
      
 
         <style>
@@ -34,7 +35,6 @@
             body {
                 font-family: 'LucidaSans-Typewriter', regular;
                 font-size: 30px;
-                background-color: #cfc8eb;
                 background-color: #DCDCF4;
                 color: #2A004D;
             
@@ -46,120 +46,109 @@
                 top: 0;
                 width: auto;
                 height: auto;
+                align-content: center;
 
                 }
                     .navcontainer{
                         float: center;
                         position: relative; 
+                        align-content: center;
                         padding: 10px;
                         box-shadow: 0px 2px 4px rgba(42, 24, 44, 0.2);
                         
                     }
-        .pagecontainer{
-            position: center;
-            text-align: center;
-            gap: 16px;
-            padding : 25px;
-        
-        .TOC{
-            position: center;
-            text-align: center;
-            gap: 16px;
-            padding : 100px;
-           
-        }
-        
-        .button-toc{
-            font-family: 'Comic Relief', sans-serif;
-            font-size: 21px;
-            align-content: center;
-            text-align: center;
-            background-color: rgb(202, 198, 227);
-            link-color: rgb(98, 14, 88);
-            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-            gap: 16px; 
-            padding: 25px; 
-            border-radius: 65px;
-            border: none;
-            display: inline-flex;
-                                    /* Group 12
-
-                        box-sizing: border-box;
-
-                        position: absolute;
-                        width: 397px;
-                        height: 158px;
-                        left: calc(50% - 397px/2 - 223.5px);
-                        top: calc(50% - 158px/2 - 17px);
-
-                        border: 1px dashed #8A38F5;
-                        border-radius: 5px; */
-
-            
-                cursor: pointer;
-                    display: inline-flex;
-                    margin: 0 auto;
-                    max-width: 100%;
-                    overflow: hidden;
-                    white-space: nowrap;
-                    word-break: keep-all;
-        }
-            .button-toc:link{
-                font-style: underline;
-                font-family: 'Comic Relief', sans-serif;
-
-            }
-            .button-toc:visited{
-                color: rgb(98, 14, 88);
-                font-family: 'Comic Relief', sans-serif;
-
-            }
-            .button-toc:hover{
-                color: rgb(142, 132, 167);
-                font-family: 'Comic Relief', sans-serif;
-
-            }
-            .button-toc:active{
-                color: rgb(167, 122, 162);
-                font-family: 'Comic Relief', sans-serif;
-
-            }
-        .buttoncontainer{
-            align-content: center;
-            text-align: center;
-            flex-direction: column;
-            columns: 2;
-            display: inline-flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            gap: 16px;
-            font-family: 'Comic Relief', sans-serif;
-            
-        }
-    }
-     .buttonsocialscontainer{
-        align-content: center;
-    
-            .buttonsocials{
-                /* align-content: center; */
-                color: rgb(90, 87, 90);
-                color: rgb(202, 198, 227);
+            .pagecontainer{
+                position: center;
                 text-align: center;
-                border-radius: 50%;
-                padding: 15px 32px;
-                background-color:rgb(51, 49, 51);
-                box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-                margin: 6px;
+                gap: 16px;
+                padding : 25px;
+            
+                .TOC{
+                    position: center;
+                    text-align: center;
+                    gap: 16px;
+                    padding : 100px;
+                    
+                }
+                .buttontoccontainer{
+                    align-content: center;
+                    text-align: center;
+                    flex-direction: column;
+                    columns: 2;
+                    display: inline-flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    gap: 16px;
+                    font-family: 'Comic Relief', sans-serif;
+                    
+                    .button-toc{
+                        font-family: 'Comic Relief', sans-serif;
+                        font-size: 21px;
+                        align-content: center;
+                        text-align: center;
+                        background-color: rgb(202, 198, 227);
+                        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+                        gap: 16px; 
+                        padding: 25px; 
+                        border-radius: 65px;
+                        border: none;
+                        display: inline-flex;         
+                            cursor: pointer;
+                                display: inline-flex;
+                                margin: 0 auto;
+                                max-width: 100%;
+                                overflow: hidden;
+                                white-space: nowrap;
+                                word-break: keep-all;
+                    
+                        .button-toc:link{
+                            font-style: none;
+                            font-family: 'Comic Relief', sans-serif;
+                            color: rgb(42, 0, 77);
+
+                        }
+                        .button-toc:visited{
+                            color: rgb(98, 14, 88);
+                            font-family: 'Comic Relief', sans-serif;
+
+                        }
+                        .button-toc:hover{
+                            color: rgb(142, 132, 167);
+                            font-family: 'Comic Relief', sans-serif;
+
+                        }
+                        .button-toc:active{
+                            color: rgb(167, 122, 162);
+                            font-family: 'Comic Relief', sans-serif;
+
+                        }
+                    }   
+                }
+            
+                .buttonsocialscontainer{
+                    align-content: center;
+
+                    .buttonsocials{
+                        align-content: center;
+                        color: rgb(90, 87, 90);
+                        color: rgb(202, 198, 227);
+                        text-align: center;
+                        border-radius: 50%;
+                        padding: 15px 32px;
+                        background-color:rgb(189, 185, 194);
+                        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+                        margin: 6px;
+                    }
+                }
             }
-        }
-        /* make the circle buttons for socials, maybe take out TOC, and take out main nav for the splash page */
+            /* make the circle buttons for socials, maybe take out TOC, and take out main nav for the splash page */
         </style>
     </head>
     <body>
         <header>
             <div class="siteheader">
                 <div class="navcontainer">
-                    <img src="https://cdn.myportfolio.com/a97ee89c-75dc-4c11-8d6e-9b02929a2360/e67eaebe-404b-46de-ba94-3532a69f6eca_rwc_58x40x564x526x4096.png?h=30d62f3183e7b16d9843dd1ed8a4e542" style="float:center; size: 75%; height: 75%;" alt="Zerozx's Designs">     
+                    <img src="https://cdn.myportfolio.com/a97ee89c-75dc-4c11-8d6e-9b02929a2360/e67eaebe-404b-46de-ba94-3532a69f6eca_rwc_58x40x564x526x4096.png?h=30d62f3183e7b16d9843dd1ed8a4e542" alt="Zerozx's Designs Logo">     
                 </div>
             </div>
         </header>
@@ -167,15 +156,14 @@
         <div class="pagecontainer">
             
             <div class="TOC"> 
-                <h3>Table of Contents:</h3>
                     
-                    <div class="buttoncontainer">   
+                    <div class="buttontoccontainer">   
                         <a href="https://zerozxdesigns.myportfolio.com" class="button-toc">Website</a>
-                        <a href="./Basic-Build.html" class="button-toc">Basic Build </a>
-                        <a href="./css-demo.html" class="button-toc">CSS Demo </a>
-                        <a href="./website-rebuild.html"class="button-toc">Website Rebuild</a>
-                        <a href="./button-set.html" class="button-toc">Button Set</a>
-                        <a href="./archive/index.html" class="button-toc">Index OG</a>
+                        <a href="./webdesign/Basic-Build.html" class="button-toc">Basic Build </a>
+                        <a href="./webdesign/css-demo.html" class="button-toc">CSS Demo </a>
+                        <a href="./webdesign/website-rebuild.html"class="button-toc">Website Rebuild</a>
+                        <a href="./webdesign/button-set.html" class="button-toc">Button Set</a>
+                        <a href="./webdesign/archive/index.html" class="button-toc">Index OG</a>
                     </div>
             </div>
             <!-- button social media links -->
@@ -183,6 +171,7 @@
                 <a href="https://www.instagram.com/zerozxdesigns/" class="buttonsocials"></a>
                 <a href="https://www.linkedin.com" class="buttonsocials"></a>
                 <a href="https://www.youtube.com/@zerozxdesigns" class="buttonsocials"></a>
+                <a href="https://www.twitter.com" class="buttonsocials"></a>
             </div>
         </div>
     </body>
