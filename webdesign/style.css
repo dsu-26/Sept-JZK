@@ -3,9 +3,6 @@
                     font-weight: 400;
                     font-style: normal;
                 }
-                            @import url('https://fonts.googleapis.com/css2?family=Jaini&display=swap');
-            @import url('https://fonts.googleapis.com/css2?family=Isometra&display=swap');
-            @import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
 
                     .comic-relief-regular {
                     font-family: "Comic Relief", system-ui;
@@ -41,7 +38,7 @@
                 }
                     .navcontainer{
                         float : right;
-                        position: relative; 
+                        /* position: relative;  */
                         right: 0;
                         top: 0;
                         /* width: 500px;
@@ -174,6 +171,7 @@
             .button-toc:active{
                 color: rgb(167, 122, 162);
                 font-family: 'Comic Relief', sans-serif;
+                
 
             }
         .buttoncontainer{
